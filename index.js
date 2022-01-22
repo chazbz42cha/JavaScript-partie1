@@ -19,14 +19,14 @@
 
 // alert(nombre_par_nombre2)
 
-let pointure = prompt("quelle est votre pointure")
+// let pointure = prompt("quelle est votre pointure")
 
-let annee_de_naissance = prompt("quelle est votre annee de naissance")
+// let annee_de_naissance = prompt("quelle est votre annee de naissance")
 
 
-annee_de_naissance=parseInt(annee_de_naissance)
+// annee_de_naissance=parseInt(annee_de_naissance)
 
-alert(pointure * 2 + 5 + annee_de_naissance )
+// alert(pointure * 2 + 5 + annee_de_naissance )
 
 
 
@@ -84,3 +84,16 @@ alert(pointure * 2 + 5 + annee_de_naissance )
 // Soluce 2 :
 // let naissance = prompt ("quel est votre date de naissance") ;
 //alert ((((Number(pointure) 2)+5 )50) - (naissance) + 1766)
+let naissance = prompt("quel est votre annee de naissance ")
+let age = 2022 - (naissance)
+
+if (age < 18) 
+window.close( ) ;
+
+let age = prompt("quel est votre age ?")
+if (age < 18) {
+    alert ( " vous etes mineur vous n avez pas le droit d axeder a se site ")
+    window.close( ) ;
+  } else {
+    alert ("vous etes majeur ")
+  }
